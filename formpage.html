@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>login forms</title>
+		<style>
+			form {
+				display: black;
+			}
+			input, textarea, select{
+			margin-bottom: 10px;
+			width: 50%;
+			}
+		</style>
+	<?head>
+	<body>
+		<h1>Sign up here</h1>
+		<form action="welcomepage.html" method="post" target="-parent">
+			
+			<div>
+				<label for="file-upload">profile picture</lebel>
+				<input type="file">
+			</div>
+			
+			<div>
+				<label for="Username">Username</lebel>
+				<input name="Username">
+			</div>
+			
+			<div>
+				<label for="Lastname">Lastname</lebel>
+				<input name="Lastname" required>
+			</div>
+			
+			<div>
+				<label for="Firstname">Firstname</lebel>
+				<input name="Firstname">
+			</div>
+			
+			<div>
+				<label for="Email">Email</lebel>
+				<input name="Email" required>
+			</div>
+			
+			<div>
+				<label for="phone number">phone:</lebel>
+				<input type="number" required>
+			</div>
+			
+			<div>
+				<label for="dob">Date of birth</lebel>
+				<input type="date">
+			</div>
+			<div>
+				<label for="Password">Password:</lebel>
+				<input type="Password" required>
+			</div>
+			
+			<div>
+				<label for="Address">Address</lebel>
+				<textarea name="Address"></textarea>
+			</div>
+			
+			<div>
+				<label for="courses">courses we offer</lebel>
+				<select>
+				<option value="">Carear Development</option>
+				<option>Mind Training</option>
+				<option>Business Development</option>
+				<option>Capacity Building</option>
+				<option>Business Strategy</option>
+				<option>Planing</option>
+				<option>Critical Thinking</option>
+				</select>
+			</div>
+			
+			<div>
+				<button type="Submit">Submit</button>
+			</div>
+		
+		</form>
+	</body>
+
+</html>
